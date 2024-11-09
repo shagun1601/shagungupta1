@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+@import url('https://fonts.cdnfonts.com/css/one-piece');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+#vid{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    
+}
+
+nav a{
+    transform: scale(1);
+    transition: 0.2s ease;
+}
+    nav ul {
+        display: flex;
+        padding: 10px;
+        
+    }
+
+a{
+    text-decoration: none;
+    color: rgb(194, 181, 181);
+    text-shadow: 1px 1px 3px black;
+}
+nav li{
+    list-style: none;
+    padding:22px;
+    margin-top: 0;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+body{
+    font-family: "SUSE", sans-serif;
+    background-color: black;
+}
+#sec1{
+    h1{
+        font-family: "Playwrite CU", cursive;
+        color: antiquewhite;
+        text-align: center;
+    }
+    h2{
+        font-family: "Playwrite CU", cursive;
+        color: antiquewhite;
+        text-align: center;
+    }
+}
+#img1{
+    margin-left: 10%;
+    width:150px;
+    height:150px;
+}

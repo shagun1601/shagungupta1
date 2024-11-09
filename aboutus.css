@@ -1,0 +1,66 @@
+
+header{
+    h2{
+        font-family: "Playwrite CU", cursive;
+        color: aliceblue;
+    }
+}
+img{
+    width:1300px;
+    height:700px;
+    padding:75px;
+    position:flex;
+    display: flex;
+}
+h2{
+    text-align: center;
+    font-family: "SUSE", sans-serif;
+    
+}
+body{background-color:black;}
+section{
+    background-color:blanchedalmond;
+
+}
+#para1{ text-align: center;
+width: 200px;
+position:flex ;
+}
+h3{
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+    
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+nav a{
+    transform: scale(1);
+    transition: 0.2s ease;
+}
+    nav ul {
+        display: flex;
+        padding: 10px;
+        
+    }
+
+a{
+    text-decoration: none;
+    color: rgb(194, 181, 181);
+    text-shadow: 1px 1px 3px black;
+}
+nav li{
+    list-style: none;
+    padding:22px;
+    margin-top: 0;
+
+    
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    
+}

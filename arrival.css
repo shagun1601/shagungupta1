@@ -1,0 +1,46 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px; /* Adjust as needed */
+    margin: auto;
+}
+.column{
+    flex: 1 1 45%; /* Adjusts to fit two images per row */
+    margin: 10px;
+}
+img{
+    width: 100%; /* Makes the image responsive */
+    height: auto;
+    border-radius: 8px; 
+}
+body{
+    background-color: bisque;
+    
+}    
+nav a{
+    transform: scale(1);
+    transition: 0.2s ease;
+}
+    nav ul {
+        display: flex;
+        padding: 10px;
+        
+    }
+
+a{
+    text-decoration: none;
+    color: rgb(160, 52, 52);
+    text-shadow: 1px 1px 3px black;
+}
+nav li{
+    list-style: none;
+    padding:22px;
+    margin-top: 0;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    
+}
